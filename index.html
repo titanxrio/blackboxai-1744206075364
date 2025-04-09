@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRYPTA - Advanced Pentesting Intelligence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-black text-white font-roboto">
+    <header class="fixed top-0 left-0 w-full z-50 bg-black/30 backdrop-blur-xl border-b border-indigo-500/20">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <a href="#" class="text-2xl font-bold font-orbitron bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent">KRYPTA</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#features" class="nav-link text-lg font-semibold hover:text-indigo-400 transition-all duration-300">Features</a>
+                    <a href="#pricing" class="nav-link text-lg font-semibold hover:text-indigo-400 transition-all duration-300">Pricing</a>
+                    <a href="#about" class="nav-link text-lg font-semibold hover:text-indigo-400 transition-all duration-300">About</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="h-screen flex items-center justify-center relative overflow-hidden">
+            <div class="text-center z-10 px-4">
+                <h1 id="krypta-title" data-text="KRYPTA" class="text-6xl md:text-8xl font-bold font-orbitron mb-4 krypta-title">KRYPTA</h1>
+                <p class="text-xl md:text-2xl font-light mb-8 animate-fade-in bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">Advanced Pentesting Intelligence</p>
+                <div class="flex gap-6 justify-center mt-12">
+                    <a href="#features" class="btn-primary relative overflow-hidden group flex items-center justify-center gap-2">
+                        <span class="relative z-10">Explore Features</span>
+                        <i class="fas fa-chevron-down group-hover:translate-y-1 transition-transform duration-300 relative z-10"></i>
+                        <div class="absolute inset-0 bg-gradient-to-r from-indigo-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="tool-visual" class="py-24 relative overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-r from-indigo-900/20 to-purple-900/20 backdrop-blur-sm"></div>
+            <div class="container mx-auto px-6">
+                <div class="tool-image-container relative w-full h-[600px] rounded-lg shadow-2xl border border-indigo-500/30 backdrop-blur-sm overflow-hidden group">
+                    <div class="absolute inset-0 bg-gradient-to-br from-indigo-600/10 to-purple-600/10 group-hover:opacity-75 transition-opacity duration-500"></div>
+                    <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(99,102,241,0.1),transparent_70%)] group-hover:scale-110 transition-transform duration-700"></div>
+                    <div class="w-full h-full bg-gradient-to-br from-indigo-900 via-purple-900 to-indigo-900 transform group-hover:scale-105 transition-transform duration-700 ease-out flex items-center justify-center relative">
+                        <!-- Animated background patterns -->
+                        <div class="absolute inset-0 opacity-30">
+                            <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(99,102,241,0.3),transparent_70%)] animate-pulse"></div>
+                            <div class="absolute inset-0 bg-[conic-gradient(from_0deg,transparent,rgba(168,85,247,0.2),transparent)] animate-spin-slow"></div>
+                        </div>
+                        <!-- Hexagonal grid pattern -->
+                        <div class="absolute inset-0 opacity-10 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MCIgaGVpZ2h0PSI0MyI+PHBhdGggZD0iTTI1IDAgTDUwIDEyLjVWMzcuNUwyNSA1MEwwIDM3LjVWMTIuNVoiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSg5OSwxMDIsMjQxLDAuMikiIHN0cm9rZS13aWR0aD0iMSIvPjwvc3ZnPg==')] bg-repeat"></div>
+                        <!-- Glowing text with animated border -->
+                        <div class="relative">
+                            <div class="absolute inset-0 blur-xl bg-gradient-to-r from-indigo-500 to-purple-500 opacity-50 animate-pulse"></div>
+                            <div class="text-6xl bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent font-orbitron relative z-10">KRYPTA</div>
+                            <!-- Animated lines -->
+                            <div class="absolute -inset-4 border border-indigo-500/30 rounded-xl"></div>
+                            <div class="absolute -inset-4 border border-purple-500/30 rounded-xl animate-ping"></div>
+                        </div>
+                        <!-- Corner accents -->
+                        <div class="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-indigo-500/50 rounded-tl-xl"></div>
+                        <div class="absolute top-0 right-0 w-16 h-16 border-t-2 border-r-2 border-purple-500/50 rounded-tr-xl"></div>
+                        <div class="absolute bottom-0 left-0 w-16 h-16 border-b-2 border-l-2 border-purple-500/50 rounded-bl-xl"></div>
+                        <div class="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-indigo-500/50 rounded-br-xl"></div>
+                    </div>
+                    <div class="absolute inset-0 animate-pulse-slow bg-gradient-to-r from-indigo-500/0 via-purple-500/10 to-indigo-500/0"></div>
+                    <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+                    <div class="absolute inset-0 border-4 border-transparent group-hover:border-indigo-500/30 transition-all duration-500 rounded-lg"></div>
+                    <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-indigo-500/20 to-purple-500/20 transform -skew-x-12 translate-x-full group-hover:translate-x-[-100%] transition-transform duration-1000"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-8 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+                        <div class="bg-black/80 backdrop-blur-md p-6 rounded-lg border border-indigo-500/30">
+                            <h3 class="text-2xl font-bold mb-2 bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">Advanced Toolkit</h3>
+                            <p class="text-indigo-200">State-of-the-art penetration testing suite with comprehensive features and intuitive interface.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="py-24 relative overflow-hidden scroll-reveal" data-parallax="0.1">
+            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/50 to-black/50 backdrop-blur-sm"></div>
+            <div class="container mx-auto px-6 scroll-reveal">
+                <h2 class="text-4xl font-bold mb-12 text-center font-orbitron relative">
+                    <span class="bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent">Features</span>
+                    <div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full"></div>
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4 scroll-reveal">
+                    <div class="feature-card p-8 rounded-xl group hover:scale-102 transition-all duration-500 hover:bg-gradient-to-br from-indigo-900/10 to-purple-900/10" style="--reveal-order: 1">
+                        <div class="relative w-16 h-16 mb-6 mx-auto">
+                            <div class="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg blur group-hover:blur-md transition-all duration-300 animate-pulse-slow"></div>
+                            <div class="relative flex items-center justify-center w-full h-full bg-gray-900 rounded-lg transform group-hover:rotate-y-180 transition-transform duration-1000">
+                                <i class="fas fa-search text-4xl bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent animate-gradient">Recon Engine</h3>
+                        <p class="text-indigo-200 group-hover:text-indigo-300 transition-colors duration-300">Advanced reconnaissance capabilities</p>
+                    </div>
+                    <div class="feature-card p-8 rounded-xl group hover:scale-102 transition-all duration-500 hover:bg-gradient-to-br from-indigo-900/10 to-purple-900/10">
+                        <div class="relative w-16 h-16 mb-6 mx-auto">
+                            <div class="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg blur group-hover:blur-md transition-all duration-300 animate-pulse-slow"></div>
+                            <div class="relative flex items-center justify-center w-full h-full bg-gray-900 rounded-lg transform group-hover:rotate-y-180 transition-transform duration-1000">
+                                <i class="fas fa-bug text-4xl bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent animate-gradient">Exploit Injector</h3>
+                        <p class="text-indigo-200 group-hover:text-indigo-300 transition-colors duration-300">Seamless vulnerability exploitation</p>
+                    </div>
+                    <div class="feature-card p-8 rounded-xl group hover:scale-102 transition-all duration-500 hover:bg-gradient-to-br from-indigo-900/10 to-purple-900/10">
+                        <div class="relative w-16 h-16 mb-6 mx-auto">
+                            <div class="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg blur group-hover:blur-md transition-all duration-300 animate-pulse-slow"></div>
+                            <div class="relative flex items-center justify-center w-full h-full bg-gray-900 rounded-lg transform group-hover:rotate-y-180 transition-transform duration-1000">
+                                <i class="fas fa-laptop-code text-4xl bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent animate-gradient">Remote Access Toolkit (RAT)</h3>
+                        <p class="text-indigo-200 group-hover:text-indigo-300 transition-colors duration-300">Powerful remote system control</p>
+                    </div>
+                    <div class="feature-card p-8 rounded-xl group hover:scale-102 transition-all duration-500 hover:bg-gradient-to-br from-indigo-900/10 to-purple-900/10">
+                        <div class="relative w-16 h-16 mb-6 mx-auto">
+                            <div class="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg blur group-hover:blur-md transition-all duration-300 animate-pulse-slow"></div>
+                            <div class="relative flex items-center justify-center w-full h-full bg-gray-900 rounded-lg transform group-hover:rotate-y-180 transition-transform duration-1000">
+                                <i class="fas fa-bolt text-4xl bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent animate-gradient">Webhook Blaster</h3>
+                        <p class="text-indigo-200 group-hover:text-indigo-300 transition-colors duration-300">High-speed webhook manipulation</p>
+                    </div>
+                    <div class="feature-card p-8 rounded-xl group hover:scale-102 transition-all duration-500 hover:bg-gradient-to-br from-indigo-900/10 to-purple-900/10">
+                        <div class="relative w-16 h-16 mb-6 mx-auto">
+                            <div class="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg blur group-hover:blur-md transition-all duration-300 animate-pulse-slow"></div>
+                            <div class="relative flex items-center justify-center w-full h-full bg-gray-900 rounded-lg transform group-hover:rotate-y-180 transition-transform duration-1000">
+                                <i class="fab fa-discord text-4xl bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent group-hover:animate-bounce"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent animate-gradient">Discord Toolset</h3>
+                        <p class="text-indigo-200 group-hover:text-indigo-300 transition-colors duration-300">Comprehensive Discord integration</p>
+                    </div>
+                    <div class="feature-card p-8 rounded-xl group hover:scale-102 transition-all duration-500 hover:bg-gradient-to-br from-indigo-900/10 to-purple-900/10">
+                        <div class="relative w-16 h-16 mb-6 mx-auto">
+                            <div class="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg blur group-hover:blur-md transition-all duration-300 animate-pulse-slow"></div>
+                            <div class="relative flex items-center justify-center w-full h-full bg-gray-900 rounded-lg transform group-hover:rotate-y-180 transition-transform duration-1000">
+                                <i class="fas fa-virus text-4xl bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent animate-spin-slow"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent animate-gradient">Virus Forge</h3>
+                        <p class="text-indigo-200 group-hover:text-indigo-300 transition-colors duration-300">Custom malware creation platform</p>
+                    </div>
+                    <div class="feature-card p-8 rounded-xl group hover:scale-102 transition-all duration-500 hover:bg-gradient-to-br from-indigo-900/10 to-purple-900/10">
+                        <div class="relative w-16 h-16 mb-6 mx-auto">
+                            <div class="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg blur group-hover:blur-md transition-all duration-300 animate-pulse-slow"></div>
+                            <div class="relative flex items-center justify-center w-full h-full bg-gray-900 rounded-lg transform group-hover:rotate-y-180 transition-transform duration-1000">
+                                <i class="fas fa-shield-alt text-4xl bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent group-hover:animate-pulse"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent animate-gradient">Persistence Tools</h3>
+                        <p class="text-indigo-200 group-hover:text-indigo-300 transition-colors duration-300">Long-term access maintenance</p>
+                    </div>
+                    <div class="feature-card p-8 rounded-xl group hover:scale-102 transition-all duration-500 hover:bg-gradient-to-br from-indigo-900/10 to-purple-900/10">
+                        <div class="relative w-16 h-16 mb-6 mx-auto">
+                            <div class="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg blur group-hover:blur-md transition-all duration-300 animate-pulse-slow"></div>
+                            <div class="relative flex items-center justify-center w-full h-full bg-gray-900 rounded-lg transform group-hover:rotate-y-180 transition-transform duration-1000">
+                                <i class="fas fa-ghost text-4xl bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent group-hover:opacity-0 transition-opacity duration-300"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent animate-gradient">Silent Execution</h3>
+                        <p class="text-indigo-200 group-hover:text-indigo-300 transition-colors duration-300">Stealthy operation capabilities</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="py-24 relative overflow-hidden scroll-reveal" data-parallax="0.15">
+            <div class="absolute inset-0 bg-gradient-to-t from-gray-900/50 to-black/50 backdrop-blur-sm"></div>
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold mb-12 text-center font-orbitron relative">
+                    <span class="bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent">Choose Your Plan</span>
+                    <div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full"></div>
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
+                    <div class="pricing-card p-8 rounded-xl relative overflow-hidden group">
+                        <h3 class="text-2xl font-bold mb-4 bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent">Basic</h3>
+                        <p class="text-4xl font-bold mb-6">$99<span class="text-xl font-normal text-indigo-300">/mo</span></p>
+                        <ul class="mb-8 text-indigo-200">
+                            <li>Recon Engine</li>
+                            <li>Exploit Injector</li>
+                            <li>Discord Toolset</li>
+                        </ul>
+                        <a href="#" class="btn-primary relative overflow-hidden group flex items-center justify-center gap-2">
+                            <span class="relative z-10">Get Started</span>
+                            <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform duration-300 relative z-10"></i>
+                            <div class="absolute inset-0 bg-gradient-to-r from-indigo-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        </a>
+                    </div>
+                    <div class="pricing-card p-8 rounded-xl relative overflow-hidden group">
+                        <h3 class="text-2xl font-bold mb-4 bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent">Pro</h3>
+                        <p class="text-4xl font-bold mb-6">$199<span class="text-xl font-normal text-indigo-300">/mo</span></p>
+                        <ul class="mb-8 text-indigo-200">
+                            <li>All Basic features</li>
+                            <li>Remote Access Toolkit (RAT)</li>
+                            <li>Webhook Blaster</li>
+                            <li>Virus Forge</li>
+                        </ul>
+                        <a href="#" class="btn-primary relative overflow-hidden group flex items-center justify-center gap-2">
+                            <span class="relative z-10">Get Started</span>
+                            <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform duration-300 relative z-10"></i>
+                            <div class="absolute inset-0 bg-gradient-to-r from-indigo-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        </a>
+                    </div>
+                    <div class="pricing-card p-8 rounded-xl relative overflow-hidden group">
+                <div class="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-purple-500 opacity-20 group-hover:opacity-40 transition-all duration-500 animate-pulse-slow"></div>
+                        <h3 class="text-2xl font-bold mb-4 bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent">Titan</h3>
+                        <p class="text-4xl font-bold mb-6">$299<span class="text-xl font-normal text-indigo-300">/mo</span></p>
+                        <ul class="mb-8 text-indigo-200">
+                            <li>All Pro features</li>
+                            <li>Persistence Tools</li>
+                            <li>Silent Execution</li>
+                            <li>Priority Support</li>
+                        </ul>
+                        <a href="#" class="btn-primary relative overflow-hidden group flex items-center justify-center gap-2">
+                            <span class="relative z-10">Get Started</span>
+                            <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform duration-300 relative z-10"></i>
+                            <div class="absolute inset-0 bg-gradient-to-r from-indigo-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 relative overflow-hidden scroll-reveal">
+            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/50 to-black/50 backdrop-blur-sm"></div>
+            <div class="container mx-auto px-6">
+                <!-- Profile Section -->
+                <div class="profile-container p-8 rounded-2xl mb-16 transform hover:scale-105 transition-all duration-500 relative group">
+                    <div class="absolute inset-0 bg-gradient-to-br from-indigo-600/10 to-purple-600/10 rounded-2xl"></div>
+                    <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-[radial-gradient(circle_at_50%_50%,rgba(99,102,241,0.2),transparent_70%)]"></div>
+                    <div class="flex flex-col md:flex-row items-center justify-between gap-8 relative">
+                        <div class="md:w-1/3">
+                            <div class="relative group perspective-1000">
+                                <div class="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full opacity-75 group-hover:opacity-100 blur transition duration-500 animate-spin-slow"></div>
+                                <div class="relative transform group-hover:rotate-y-180 transition-transform duration-1000 preserve-3d">
+                                    <div class="backface-hidden">
+                                        <img src="https://via.placeholder.com/150" alt="Discord Profile" class="rounded-full relative">
+                                    </div>
+                                    <div class="absolute inset-0 backface-hidden rotate-y-180">
+                                        <div class="w-full h-full rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center text-white font-orbitron">TITAN</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="md:w-2/3 text-center md:text-left">
+                            <h2 class="text-4xl font-bold mb-6 font-orbitron bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent animate-gradient">About Me</h2>
+                            <p class="text-xl mb-6 text-indigo-200 typing-animation">Discord Username: YourDiscordUsername</p>
+                            <p class="text-3xl font-bold font-orbitron bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent mb-8 glitch-text" data-text="TITAN">TITAN</p>
+                        </div>
+                    </div>
+                    <!-- Animated corner accents -->
+                    <div class="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-indigo-500/50 rounded-tl-xl animate-pulse-slow"></div>
+                    <div class="absolute top-0 right-0 w-16 h-16 border-t-2 border-r-2 border-purple-500/50 rounded-tr-xl animate-pulse-slow delay-150"></div>
+                    <div class="absolute bottom-0 left-0 w-16 h-16 border-b-2 border-l-2 border-purple-500/50 rounded-bl-xl animate-pulse-slow delay-300"></div>
+                    <div class="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-indigo-500/50 rounded-br-xl animate-pulse-slow delay-450"></div>
+                </div>
+
+                <!-- Discord Server Section -->
+                <div class="discord-server-container p-8 rounded-2xl transform hover:scale-105 transition-all duration-500 relative group">
+                    <div class="absolute inset-0 bg-gradient-to-br from-indigo-600/10 to-purple-600/10 rounded-2xl"></div>
+                    <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-[radial-gradient(circle_at_50%_50%,rgba(99,102,241,0.2),transparent_70%)]"></div>
+                    <div class="relative z-10">
+                        <div class="text-center">
+                            <h2 class="text-4xl font-bold mb-6 font-orbitron bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent animate-gradient">Join Our Discord</h2>
+                            <p class="text-xl mb-8 text-indigo-200">Connect with fellow hackers and stay updated with the latest tools and techniques</p>
+                            <a href="#" class="discord-button inline-flex items-center gap-2 group relative overflow-hidden px-8 py-4 rounded-xl bg-indigo-500 hover:bg-indigo-600 transition-colors duration-300">
+                                <div class="absolute inset-0 bg-gradient-to-r from-indigo-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                                <div class="relative z-10 flex items-center gap-2">
+                                    <i class="fab fa-discord text-2xl group-hover:animate-bounce"></i>
+                                    <span class="font-bold tracking-wider">Join KRYPTA</span>
+                                </div>
+                                <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-indigo-500/20 to-purple-500/20 transform -skew-x-12 translate-x-full group-hover:translate-x-[-100%] transition-transform duration-1000"></div>
+                            </a>
+                        </div>
+                        <!-- Animated particles -->
+                        <div class="absolute inset-0 pointer-events-none">
+                            <div class="particle"></div>
+                            <div class="particle delay-1"></div>
+                            <div class="particle delay-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 py-8">
+        <div class="container mx-auto px-6 text-center">
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="#" class="text-white hover:text-green-500 transition duration-300">
+                    <i class="fab fa-discord text-2xl"></i>
+                </a>
+                <a href="#" class="text-white hover:text-green-500 transition duration-300">
+                    <i class="fab fa-github text-2xl"></i>
+                </a>
+            </div>
+            <p class="text-sm">Developed in the shadows. Deployed with precision.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/es-module-shims@1.8.0/dist/es-module-shims.js"></script>
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+    }
+    </script>
+    <script type="module" src="script.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#6366f1',
+                        'secondary': '#a855f7'
+                    },
+                    animation: {
+                        'spin-slow': 'spin 20s linear infinite',
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'ping-slow': 'ping 3s cubic-bezier(0, 0, 0.2, 1) infinite',
+                        'float': 'float 4s ease-in-out infinite',
+                        'gradient': 'gradient 8s linear infinite',
+                        'cursor-blink': 'blink 1s step-end infinite',
+                        'glitch': 'glitch 3s infinite',
+                        'rotate-y': 'rotateY 1.5s ease-in-out infinite'
+                    },
+                    keyframes: {
+                        ping: {
+                            '75%, 100%': {
+                                transform: 'scale(1.5)',
+                                opacity: '0'
+                            }
+                        },
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-20px)' }
+                        },
+                        gradient: {
+                            '0%, 100%': { backgroundPosition: '0% 50%' },
+                            '50%': { backgroundPosition: '100% 50%' }
+                        },
+                        blink: {
+                            'from, to': { borderColor: 'transparent' },
+                            '50%': { borderColor: 'currentColor' }
+                        },
+                        glitch: {
+                            '0%, 100%': { transform: 'translate(0)' },
+                            '20%': { transform: 'translate(-2px, 2px)' },
+                            '40%': { transform: 'translate(-2px, -2px)' },
+                            '60%': { transform: 'translate(2px, 2px)' },
+                            '80%': { transform: 'translate(2px, -2px)' }
+                        },
+                        rotateY: {
+                            '0%': { transform: 'rotateY(0deg)' },
+                            '100%': { transform: 'rotateY(360deg)' }
+                        }
+                    },
+                    transitionDuration: {
+                        '2000': '2000ms',
+                        '3000': '3000ms'
+                    },
+                    scale: {
+                        '102': '1.02'
+                    }
+                }
+            }
+        };
+    </script>
+</body>
+</html>
